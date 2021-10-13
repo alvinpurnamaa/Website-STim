@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;   
+    background: rgb(81, 121, 253);
+}
+
+
+/* Start Header all page  */
+
+.header {
+    padding: 10px;
+    padding-left: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    background: rgb(81, 121, 253);      
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar a {
+    padding-right: 63px;    
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size: 14px;
+
+}
+
+.navbar a:hover {   
+    color:rgb(0, 255, 234);    
+}
+
+/* End Header all page */
+
+
+.main {
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.title-main-content {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 17px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.title-main-content p {
+    padding-left: 13px;
+}
+
+
+.title-main-content h3:hover {
+    background-color: white;
+    color:black;
+    transition: 0.8s ease-in-out;
+}
+
+.see-more {
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 13px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;   
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+/* Start Main Event Of The Month (Home.HTML) */
+
+.event-month {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}
+
+.event-month :hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.event-month img {
+    border-radius: 10px;
+    width: 49%;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0 1px 5px 2px rgb(255, 255, 255);
+}
+
+/* End Main Event Of The Month (Home.HTML */
+
+
+/* Container */
+
+.games {
+    display: flex;
+    justify-content: center;
+}
+
+.games h4 {
+    font-size: 15px;
+}
+
+.game-name {
+    background: rgb(81, 121, 253);
+    box-shadow: 0 1px 5px 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 20px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.game-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.game-name h4 {
+    padding-left: 8px;
+}
+
+.game-name p {
+    padding-left: 8px;
+}
+
+.game-img {
+    width: 100%;
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+
+}
+
+
+/* Start On Going Event (News.HTML) */
+
+.ongoing-event {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}
+
+.ongoing-event :hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.ongoing-event img {
+    border-radius: 10px;
+    width: 32%;
+    cursor: pointer;
+    box-shadow: 0 1px 5px 2px rgb(255, 255, 255);
+}
+
+
+/* End On Going Event (News.HTML) */
+
+.news-img {
+    border-radius: 5px;
+    width: 440px;
+    object-fit: cover;
+    height: 80%;
+}
+
+
+/* Start Payment.html  */
+
+.main-payment {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;    
+    font-size: 14px
+}
+
+.form-payment {
+    background-color: rgb(230, 238, 255);
+    border-radius: 15px;
+    box-shadow: 1px 3px 4px black;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+}   
+
+.title-payment {
+    text-align: center;
+    padding: 15px;
+}
+
+.form-input-payment {
+    margin-bottom: 15px; 
+}
+
+#country {
+    border: 2px solid black;
+    width: 100%;
+    height: 25px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 4px; 
+}
+
+.input-form {
+    width: 100%;
+    display: block;
+    margin-top: 4px;
+    border-radius: 5px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+
+/* End Payment.html  */
+
+
+/* About Us */
+
+.about-us {
+    color: white;
+    margin-top: 70px;
+    padding-left: 25px;
+    
+}
+
+.explain-stim {
+    border-radius: 30px;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 50px;
+    background: rgb(81, 121, 253);
+    /* box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 1px 5px 2px rgb(255, 255, 255);
+}
+
+.history-stim {
+    border-radius: 30px;
+    width: 70%;
+    padding: 20px;
+    margin-left: 350px;
+    background: rgb(81, 121, 253);
+    /* box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 1px 5px 2px rgb(255, 255, 255);
+}
+
+
+
+
+/* Footer All Page */
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+    padding: 20px;
+    padding-left: 65px;
+    padding-bottom: 10px;
+    color: white;
+    background: rgb(81, 121, 253);
+    box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+
+.footer-section-two {
+    padding-left: 70px;
+    cursor: pointer;
+}
+
+.footer-section-two p:hover {
+    color:rgb(0, 255, 234);  
+}
+
+.footer-section-three {
+    padding-left: 95px;
+    cursor: pointer;
+}
+
+.footer-section-three p:hover {
+    color:rgb(0, 255, 234);  
+}
+
+
+
+/* JavaScript CSS */
+
+#messages-error {
+    color: red;
+}
+

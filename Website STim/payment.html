@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Awal Header -->
+
+    <div class="header">
+        <h2>STim</h2>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="library.html">Library</a>
+            <a href="news.html">News</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </div>  
+
+    <!-- Akhir Header -->
+
+    <!-- Awal Payment  -->
+
+    <div class="main-payment">
+        <form class="form-payment" action="confirmation.html" method="POST" id="" onsubmit="return validateForm ()">
+            <h1 class="title-payment">Payment</h1>
+
+            <div class="form-input-payment">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">Select country</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="South Korea">South Korea</option>
+                </select>
+            </div>
+
+            <div class="form-input-payment">
+                <label for="fullname">Full Name</label>
+                <input class="input-form" type="text" name="fullname" id="fullname">
+            </div>
+
+            <div class="form-input-payment">
+                <label for="username">Username</label>
+                <input class="input-form" type="text" name="username" id="username">
+            </div>
+
+            <div class="form-input-payment">
+                <label for="email">Email</label>
+                <input class="input-form" type="text" name="email" id="email">
+            </div>
+
+            <div class="form-input-payment">
+                <label for="password">Password</label>
+                <input class="input-form" class="input-form" type="password" name="password" id="password">
+            </div>
+
+            <div class="form-input-payment">
+                Payment Method
+                <br> <br>
+                <input type="radio" name="paymentmethod" id="paymentmethod" value="male" "> Debit
+                <br> <br>
+                <input type="radio" name="paymentmethod" id="paymentmethod" value="female"> Credit
+            </div>
+
+            <div class="form-input-payment">
+                <label for="card-number">Debit / Credit Number</label>
+                <input class="input-form" type="text" name="cardnumber" id="cardnumber">
+            </div>
+            
+            <div class="form-input-payment">
+                <label for="exp-card">Exp</label>
+                <input class="input-form" type="text" name="exp" id="exp">
+            </div>
+
+            <br>
+    
+            <div>
+                <input class="input-form" type="submit" value="Buy"> 
+            </div>
+
+            <p id="messages-error"></p>
+        </form>
+        
+    </div>
+
+    <!-- Akhir Payment  -->
+
+    <!-- Awal Footer -->
+
+    <div class="footer">
+        <div class="footer-section-one">
+            <h3>STim</h3>
+            <p>Sudirman Street West Boulevard No. 10</p>
+            <p>West Jakarta, Indonesia</p>
+            <p>+62 821 1028 5088</p>
+            <h6> &copy; STim</h6>
+        </div>
+        
+        <div class="footer-section-two">
+            <h3>Guidlines</h3>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>FAQ</p>
+        </div>
+
+        <div class="footer-section-three">
+            <h3>Find Us</h3>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+        </div> 
+    </div>
+
+
+    <!-- Akhir Footer -->
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
